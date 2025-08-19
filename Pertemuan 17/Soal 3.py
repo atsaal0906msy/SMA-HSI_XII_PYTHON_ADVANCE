@@ -9,4 +9,4 @@ black, pace, jawa = warna
 # "Membongkar" tuple ke dalam variabel x dan y
 print(f"Warna : {black}") 
 print(f"Warna pace: {pace}") 
-print(f"Warna jawa: {jawa}") 
+print(f"Warna jawa: {jawa}")  

@@ -17,3 +17,4 @@ with open("mbox-short.txt") as file:
 
 # Mencetak hasil
 print(hari_count)
+ 

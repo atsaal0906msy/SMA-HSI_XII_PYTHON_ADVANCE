@@ -10,8 +10,7 @@ kontak = {}
 
 kontak["Ibu"] = "081234567890"
 kontak["Ayah"] = "082345678901"
-kontak["Teman"] = "083456789012"
-
+kontak["Teman"] = "083456789012" 
 kontak["Ibu"] = "081111111111"
 
 kontak.pop("Teman")

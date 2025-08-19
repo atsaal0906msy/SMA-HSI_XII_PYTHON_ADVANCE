@@ -6,7 +6,7 @@
 
 harga_buah = {
     "apel": 5000,
-    "jeruk": 8500,
+    "jeruk": 8500, 
     "mangga": 7800,
     "pisang": 3000
 }

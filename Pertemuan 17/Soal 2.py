@@ -8,3 +8,4 @@ angka_baru = angka_awal[0:1] + (25,)
 
 print(angka_baru)
 
+ 

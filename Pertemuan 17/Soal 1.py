@@ -8,4 +8,4 @@ nama_hari = ("senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "ahad")
 angka_ganjil = (9,)
 
 print(type(nama_hari), nama_hari)
-print(type(angka_ganjil), angka_ganjil)
+print(type(angka_ganjil), angka_ganjil) 

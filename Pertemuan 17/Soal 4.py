@@ -17,4 +17,4 @@ for kata in kata_kata:
         histogram[kata] += 1
     else:
         histogram[kata]
-print("Histogram kata:", histogram)
+print("Histogram kata:", histogram) 
