@@ -18,7 +18,7 @@ biodata = {
 
 nama_suuu = biodata["nama"]
 print(f"Nama saya adalah: {nama_suuu}") 
-
+ 
 umur_suuu = biodata["umur"]
 print(f"Umurnya adalah: {umur_suuu} tahun") 
 

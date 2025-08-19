@@ -14,7 +14,7 @@ with open("mbox-short.txt") as file:
             kata = baris.split()
             hari = kata[2]  # kata ke-3 adalah nama hari
             hari_count[hari] = hari_count.get(hari, 0) + 1
-
+ 
 # Mencetak hasil
 print(hari_count)
  

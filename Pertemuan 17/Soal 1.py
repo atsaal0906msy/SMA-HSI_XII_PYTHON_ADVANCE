@@ -9,3 +9,4 @@ angka_ganjil = (9,)
 
 print(type(nama_hari), nama_hari)
 print(type(angka_ganjil), angka_ganjil) 
+ 

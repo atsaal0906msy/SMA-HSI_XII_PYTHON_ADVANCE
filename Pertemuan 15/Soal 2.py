@@ -13,7 +13,7 @@ biodata = {
 }
 
 # menambahkan key-value baru
-biodata["kota"] = "Cirebon"
+biodata["kota"] = "Cirebon" 
 # mengganti key-value
 biodata["umur"] = 18
 print("Profil setelah ditambah:", biodata)

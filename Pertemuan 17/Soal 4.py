@@ -11,7 +11,7 @@ kata_kata = kalimat.split()
 
 
 histogram = {}
-
+ 
 for kata in kata_kata:
     if kata in histogram:
         histogram[kata] += 1

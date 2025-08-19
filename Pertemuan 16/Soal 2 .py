@@ -13,6 +13,6 @@ kontak["Ayah"] = "082345678901"
 kontak["Teman"] = "083456789012" 
 kontak["Ibu"] = "081111111111"
 
-kontak.pop("Teman")
+kontak.pop("Teman") 
 
 print("Kontak akhir:", kontak)

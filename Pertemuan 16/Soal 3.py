@@ -15,7 +15,7 @@ produk = {
         "nama": "Smartphone",
         "harga": 3500000,
         "stok": 10
-    } 
+    }  
 }
 
 # Mencetak nama dan harga produk dengan ID PROD002

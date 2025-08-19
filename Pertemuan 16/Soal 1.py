@@ -18,6 +18,6 @@ for buah, harga in harga_buah.items():
     total_harga += harga 
     
 print(f"Total harga semua buah adalah Rp {total_harga}")
-
+ 
 
 

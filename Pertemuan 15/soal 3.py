@@ -4,4 +4,13 @@
 # pada baris ini agar tidak error).
 # Sekarang, akses key "pekerjaan" menggunakan metode .get(). Cetak hasilnya.
 # Akses lagi key "pekerjaan" menggunakan .get(), tapi kali ini berikan nilai default "Pelajar".
-# Cetak hasilnya
+# Cetak hasilnya 
+
+biodata = {
+    "nama": "Atsaal",
+    "umur": 20,
+    "hobi": "Ngoding"
+}
+
+print(biodata.get("pekerjaan"))  
+print(biodata.get("pekerjaan", "Pelajar"))  
