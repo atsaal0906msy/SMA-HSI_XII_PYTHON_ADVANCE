@@ -28,7 +28,7 @@ class RekeningBank:
             self.saldo -= jumlah
             print(f"Successful: Rp{jumlah:,} How much money you have: {self.saldo}")
 
-rekening_pace = RekeningBank("6738959726", "paceireng")
+rekening_pace = RekeningBank("6738959726", "paceireng") 
 
 rekening_pace.lihat_saldo()
 rekening_pace.setor(100000000)
@@ -36,35 +36,4 @@ rekening_pace.setor(500000000)
 rekening_pace.penarikan(300000)  
 rekening_pace.penarikan(600000)  
 rekening_pace.lihat_saldo()
-
-# class RekeningBank:
-#     def __init__(self, nomor_rekening, nama_pemilik):
-#         self.nomor_rekening = nomor_rekening
-#         self.nama_pemilik = nama_pemilik
-#         self.saldo = 0
-
-#     def lihat_saldo(self):
-#         print(f"Sisa saldo saat ini: Rp{self.saldo}")
-
-#     def setor(self, jumlah):
-#         self.saldo += jumlah
-#         print(f"Jumlah setor: Rp{jumlah} berhasil, saldo saat ini: Rp{self.saldo}")
-
-#     def tarik(self, jumlah):  # diganti 'tarik' biar konsisten dengan pemanggilan
-#         if jumlah > self.saldo:
-#             print("Saldo tidak mencukupi untuk penarikan.")
-#         else:
-#             self.saldo -= jumlah
-#             print(f"Berhasil tarik: Rp{jumlah}, saldo tersisa: Rp{self.saldo}")
-
-
-# # penggunaan
-# rekening_pace = RekeningBank("6738959726", "paceireng")
-
-# rekening_pace.lihat_saldo()
-# rekening_pace.setor(100000000)
-# rekening_pace.setor(500000000)
-# rekening_pace.tarik(300000)
-# rekening_pace.tarik(600000)
-# rekening_pace.lihat_saldo()
 
