@@ -4,7 +4,7 @@
 
 import re
 
-kalimat = "Kucing, anjing, dan burung adalah hewan peliharaan."
+kalimat = "Kucing, anjing, musang dan burung adalah hewan peliharaan."
 
-hasil = re.findall("g", kalimat)
+hasil = re.findall("\S+g", kalimat)
 print(hasil)
